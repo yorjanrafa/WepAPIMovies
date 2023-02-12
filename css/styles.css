@@ -20,6 +20,38 @@ h1 {
     padding: 30px 40px 40px 40px;
     color: #fff;
 }
+
+
+.container-categories, .container-years {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.container-categories .category{
+    padding: 8px 16px;
+    background-color: #00459E;
+    color: #fff;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container-years .year {
+    padding: 6px;
+    background-color: #00459E;
+    color: #fff;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+} 
+
+.container-categories .category:hover, .container-years .year:hover {
+    background-color: #0061E0;
+} 
+
 .container-cards {
     width: 100%;
     display: flex;
@@ -63,5 +95,4 @@ img {
     padding: 1px 5px;
     border-radius: 10px;
 }
-
 
